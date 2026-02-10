@@ -1,10 +1,33 @@
 {
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.1.5",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1"
-  }
+  },
+  "name": "negie-matias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manute19122001/reentrega-corregia-de-back2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manute19122001/reentrega-corregia-de-back2-/issues"
+  },
+  "homepage": "https://github.com/manute19122001/reentrega-corregia-de-back2-#readme"
 }
