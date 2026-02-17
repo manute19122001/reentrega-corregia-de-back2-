@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Vincula tu CSS -->
+</head>
+<body>
+    {{> _navbar}} <!-- Incluye un partial de navegación si lo creas -->
+    <main class="container">
+        {{{body}}} <!-- Aquí se renderizará el contenido de home.handlebars, etc. -->
+    </main>
+    <footer>
+        <p>&copy; {{currentYear}} Mi E-commerce. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../layouts/main.handlebars"></script> <!-- Vincula tu JS -->
+</body>
+</html>

@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <a href="/" class="brand">Mi Tienda</a>
+    <div class="nav-links">
+        <a href="/products">Productos</a>
+        {{#if user}}
+            <span>Hola, {{user}}</span>
+            <a href="/logout">Salir</a>
+            <a href="/cart">Mi Carrito</a>
+        {{else}}
+            <a href="/login">Iniciar Sesión</a>
+            <a href="/register">Registrarse</a>
+            <a href="/forgot-password">¿Olvidaste tu contraseña?</a>
+        {{/if}}
+    </div>
+</nav>
